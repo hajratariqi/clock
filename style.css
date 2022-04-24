@@ -1,0 +1,38 @@
+@font-face {
+    font-family: tickingtime;
+    src: url(ticking-timebomb-bb/TickingTimebombBB.ttf);
+}
+body{
+    text-align: center;
+    font-family: tickingtime;
+    margin-top: 2%;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3vw;
+}
+#min ,#sec ,#msec{
+    display: inline;
+    /* background-color: black; */
+    /* border: 1px solid black; */
+    font-size: 3vw;
+    font-family: tickingtime;
+    /* width: 5%; */
+    margin-left: 1%;
+    color: red;
+}
+#minh1 ,#sech1{
+    font-family: tickingtime;
+    display: inline;
+    margin-left: 1%;
+}
+button{
+    display: inline-block;
+    font-size: 1.6vw;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 1.3%;
+    margin-top: 1%;
+    font-weight: 900;
+    box-shadow: 2px 3px 2px rgb(207, 205, 205);
+    cursor: pointer;
+}
